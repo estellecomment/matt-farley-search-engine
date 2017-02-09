@@ -7,8 +7,16 @@ const words = process.argv[2];
 console.log('Querying ', words, '...');
 
 const aliases = [
-    'The Very Nice Interesting Singer Man',
-    'The Sorry Apology Song Person'
+  'The Boston Sports Band of New England',
+  'The Great Weather Song Person',
+  'The Guy Who Sings your Name Over and Over',
+  'The Motern Media Holiday Singers',
+  'The Odd Man who Sings About poop',
+  'The Paranormal Song Warrior',
+  'The Singing Film Critic',
+  'The Strange Man Who Sings About Dead Animals',
+  'The Sorry Apology Song Person',
+  'The Very Nice Interesting Singer Man',
 ];
 
 const makeQueryOptions = function(artist, words) {
